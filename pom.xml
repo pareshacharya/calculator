@@ -49,9 +49,9 @@
     <finalName>calculator</finalName>
     <plugins>
       <plugin>
-         <groupId>org.jacoco</groupId>
-         <artifactId>jacoco-maven-plugin</artifactId>
-         <version>0.8.4</version>
+           <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.4.0</version>  <!-- Use the latest version -->
          <executions>
            <execution>
              <goals>
